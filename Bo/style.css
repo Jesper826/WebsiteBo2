@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 125%;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+} 
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.4em;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.skills .content .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex: 1;
+    
+}
+
+.content .images img {
+    width: 350px;
+    height: 400px;
+    
+}
+
+.content p {
+    flex: 1;
+    text-align: justify;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.softskills .content {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.softskills .content .images {
+    display: block; 
+    text-align: center; 
+    
+}
+
+.softskills .content .images img {  
+    height: 400px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 60vw;
+}
+
+
+
+.NaHetMa .content {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 20px;
+    align-items: center; 
+}
+
+.NaHetMa .content .images {
+    flex: 0 0 40%; 
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+
+    
+}
+
+
+.NaHetMa .content .images img {
+    width: 460px;
+    height: 400px; 
+    object-fit: cover; 
+    padding-left: 40px;
+}
+
+
+.goals .content {
+    gap: 1px;
+}
+
+.goals .content >p{
+    padding-left: 40px;
+}
+
+
