@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blik op de toekomst</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
         <h1>Blik op de toekomst.</h1>
-        
     </header>
 
     <main>
@@ -19,10 +18,10 @@
             <h2>Mijn tech skills aan het einde van deze opleiding.</h2>
             <div class="content">
                 <div class="images">
-                    <img src="./images/2de.jpg " alt="code op een monitor">
-                    <img src="./images/toetsenbord.jpg" alt="toetsenbord">
-                    <img src="./images/baan.jpg" alt="Iemand met een baan">
-                    <img src="./images/koe.jpg" alt="KOE">
+                    <img src="./images/2de.jpg" alt="code op een monitor" class="thumbnail" data-text="Code schrijven als een professional.">
+                    <img src="./images/toetsenbord.jpg" alt="toetsenbord" class="thumbnail" data-text="Mijn belangrijkste gereedschap.">
+                    <img src="./images/baan.jpg" alt="Iemand met een baan" class="thumbnail" data-text="Mijn droomcarrière.">
+                    <img src="./images/koe.jpg" alt="KOE" class="thumbnail" data-text="Grappige afbeelding van een koe.">
                 </div>
                 <p>
                     Aan het einde van deze opleiding kan ik goed een website maken, inclusief geavanceerde
@@ -32,25 +31,24 @@
             </div>
         </section>
 
-        <section class="skills softskills">
+        <section class="skillssoftskills">
             <h2>Mijn soft skills straks.</h2>
             <div class="content">
                 <p>
                     Ik wil beter worden in communiceren, samenwerken, en omgaan met feedback. Het doel is om sterk in
                     een team te functioneren en problemen op te lossen door kritisch en creatief denken.
-
-
                 </p>
                 <div class="images">
-                    <img src="./images/samenwerken.jpg" alt="Mensen die samenwerken">
+                    <img src="./images/samenwerken.jpg" alt="Mensen die samenwerken" class="thumbnail" data-text="Samenwerking is de sleutel tot succes.">
                 </div>
             </div>
         </section>
+
         <section class="goals">
             <h2>Wat wil ik later bereikt hebben.</h2>
             <div class="content">
                 <div class="images">
-                    <img src="./images/lijst.jpg" alt="lijst met doelen">
+                    <img src="./images/lijst.jpg" alt="lijst met doelen" class="thumbnail" data-text="Doelen bereiken en projecten afronden.">
                 </div>
                 <p>
                     Ik wil projecten hebben afgerond waar ik trots op ben, zoals een complete game of applicatie. Deze
@@ -66,9 +64,8 @@
                     Na mijn opleiding wil ik graag meteen aan de slag als junior webdeveloper in een innovatief bedrijf.
                     Hier wil ik verder groeien, leren van ervaren collega's, en nieuwe technologieën ontdekken.
                 </p>
-
                 <div class="images">
-                    <img src="./images/NaHetMa.jpg" alt="Bord met Droombaan">
+                    <img src="./images/NaHetMa.jpg" alt="Bord met Droombaan" class="thumbnail" data-text="Dream job bord.">
                 </div>
             </div>
         </section>
@@ -77,7 +74,7 @@
             <h2>Mijn droombaan dagboek.</h2>
             <div class="content">
                 <div class="images">
-                    <img src="./images/Mijn-Droom-Dagboek.jpg" alt="Dagboek">
+                    <img src="./images/Mijn-Droom-Dagboek.jpg" alt="Dagboek" class="thumbnail" data-text="Droomdag dagboek">
                 </div>
                 <p>Mijn droombaan is werken als full-stack developer bij een bedrijf waar technologie en creativiteit
                     samenkomen. Ik stel mezelf doelen zoals het ontwikkelen van apps die een positieve impact hebben op
@@ -89,20 +86,26 @@
         <section class="NaHetMa">
             <h2>Een andere droom.</h2>
             <div class="content">
-                <p>Als het niet uitkomt wil ik graag andere dingen doen die wel met software developer te maken heeft,
+                <p>Als het niet uitkomt wil ik graag andere dingen doen die wel met software developer te maken hebben,
                     zoals iets met security.
                 </p>
                 <div class="images">
-                    <img src="./images/droom.jpg" alt="iemand op het dak">
+                    <img src="./images/droom.jpg" alt="iemand op het dak" class="thumbnail" data-text="Andere dromen">
                 </div>
             </div>
-
         </section>
     </main>
 
     <footer>
         <p>Gemaakt door Jesper van Nierkerk, klas 1B.</p>
     </footer>
+
+    <div id="imageOverlay">
+        <img src="" alt="Vergrote afbeelding" id="overlayImage">
+        <p id="imageCaption"></p>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
