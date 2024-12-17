@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+  
+    transition: 0.3s;
+}
+
 body {
     font-family: Arial;
     font-size: 125%;
@@ -53,7 +59,24 @@ h2 {
     color: #222;
     margin-bottom: 15px;
 }
+html {
+    scroll-behavior: smooth;
+    
+}
 
+img:hover {
+    transform: scale(1.05)
+}
+li:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+    img:hover {
+        transform: none;
+    }
+}
 
 .content {
     display: flex;
@@ -134,6 +157,8 @@ footer {
     height: 400px; 
     object-fit: cover; 
     padding-left: 40px;
+    border-radius: 8px;
+    
 }
 
 
